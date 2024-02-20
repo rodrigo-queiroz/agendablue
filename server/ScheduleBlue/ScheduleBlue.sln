@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleBlue.API", "ScheduleBlue.API\ScheduleBlue.API.csproj", "{0B0D81F7-EBB4-4A3B-A47D-471CCC308004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleBlue.Application", "ScheduleBlue.Application\ScheduleBlue.Application.csproj", "{EB6FD4B4-F51A-494C-9025-B0396C853280}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleBlue.Core", "ScheduleBlue.Core\ScheduleBlue.Core.csproj", "{20D7F393-99E0-4B4C-94AF-4A06BEA8A38B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleBlue.Infrastructure", "ScheduleBlue.Infrastructure\ScheduleBlue.Infrastructure.csproj", "{E6C115D7-7BD3-4475-9603-A73A6E5F6618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleBlue.UnitTests", "ScheduleBlue.UnitTests\ScheduleBlue.UnitTests.csproj", "{230F57BD-7B91-4985-8E03-40B1A2ECCC93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B0D81F7-EBB4-4A3B-A47D-471CCC308004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0D81F7-EBB4-4A3B-A47D-471CCC308004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0D81F7-EBB4-4A3B-A47D-471CCC308004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0D81F7-EBB4-4A3B-A47D-471CCC308004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6FD4B4-F51A-494C-9025-B0396C853280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6FD4B4-F51A-494C-9025-B0396C853280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6FD4B4-F51A-494C-9025-B0396C853280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6FD4B4-F51A-494C-9025-B0396C853280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D7F393-99E0-4B4C-94AF-4A06BEA8A38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D7F393-99E0-4B4C-94AF-4A06BEA8A38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D7F393-99E0-4B4C-94AF-4A06BEA8A38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D7F393-99E0-4B4C-94AF-4A06BEA8A38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C115D7-7BD3-4475-9603-A73A6E5F6618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C115D7-7BD3-4475-9603-A73A6E5F6618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C115D7-7BD3-4475-9603-A73A6E5F6618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C115D7-7BD3-4475-9603-A73A6E5F6618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230F57BD-7B91-4985-8E03-40B1A2ECCC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230F57BD-7B91-4985-8E03-40B1A2ECCC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230F57BD-7B91-4985-8E03-40B1A2ECCC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230F57BD-7B91-4985-8E03-40B1A2ECCC93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15034AAB-A17C-4910-B076-AA05FFD63CD2}
+	EndGlobalSection
+EndGlobal

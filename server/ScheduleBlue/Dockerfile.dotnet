@@ -1,0 +1,23 @@
+# Base image
+FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine AS base
+WORKDIR /app
+EXPOSE 80
+
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine AS build
+WORKDIR /src
+COPY . .
+RUN dotnet restore "./ScheduleBlue.API/ScheduleBlue.API.csproj"
+WORKDIR /src/ScheduleBlue.API
+RUN dotnet build ScheduleBlue.API.csproj -c Release -o /app
+
+# Publish stage
+FROM build AS publish
+WORKDIR /src/ScheduleBlue.API
+RUN dotnet publish ScheduleBlue.API.csproj -c Release -o /app
+
+# Final stage
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "ScheduleBlue.API.dll"]

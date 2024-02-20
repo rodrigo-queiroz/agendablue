@@ -1,0 +1,20 @@
+{
+    "singleQuote": true,
+    "semi": true,
+    "tabWidth": 3,
+    "singleAttributePerLine": true,
+    "printWidth": 150,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "htmlWhitespaceSensitivity": "strict",
+    "vueIndentScriptAndStyle": false,
+    "arrowParens": "always",
+    "proseWrap": "always",
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": { "singleQuote": false, "trailingComma": "all" }
+      }
+    ]
+  }
